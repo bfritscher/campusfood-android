@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<style name="WidgetDarkBackground">
+        <item name="android:background">@drawable/appwidget_dark_bg_clickable</item>
+    </style>
+   	<style name="WidgetButtonLeft">
+        <item name="android:background">@drawable/appwidget_button_left</item>
+    </style>
+   	<style name="WidgetButtonCenter">
+        <item name="android:background">@drawable/appwidget_button_center</item>
+    </style>
+   	<style name="WidgetButtonRight">
+        <item name="android:background">@drawable/appwidget_button_right</item>
+    </style>            
+</resources>

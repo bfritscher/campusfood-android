@@ -1,0 +1,39 @@
+http://viewpagerindicator.com/
+http://actionbarsherlock.com/
+https://github.com/bauerca/drag-sort-listview
+https://github.com/ChristopheVersieux/HoloEverywhere
+http://android-ui-utils.googlecode.com/hg/asset-studio/dist/icons-launcher.html
+http://www.dafont.com/efon.font
+
+
+TODO:
+service to retreive data
+
+schedule retrieval
+http://developer.android.com/reference/android/app/AlarmManager.html
+widget
+
+++
+subscribe/notification
+rating
+
+--
+epfl parsing
+
+
+http://developer.android.com/distribute/promote/device-art.html
+
+//analytics doc
+
+To pass referrer information to your application, link to it in Market as
+follows:
+
+http://market.android.com/search?q=pname:<package>&referrer=<referral>
+
+where <package> is the application's package name, and <referral> is a url
+encoded list of Analytics Campaign information.  There is a tool you can use
+to generate urls at:
+
+https://developers.google.com/analytics/devguides/collection/android/v2/campaigns
+
+All tracked page views/events will be now be attributed to this campaign.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="3dip" android:minHeight="10dip">
+
+  <TextView
+      android:id="@+id/daily_meal_title"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="top|center_horizontal"
+      android:paddingBottom="10dp"
+      android:paddingLeft="10dip"
+      android:paddingRight="10dip"
+      android:paddingTop="10dp"
+      android:textColor="@android:color/white"
+      android:textSize="28sp"
+      android:textStyle="bold" >
+
+	</TextView>
+  <TextView android:id="@+id/daily_meal_content" android:layout_width="fill_parent" 
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:paddingLeft="10dip" android:paddingRight="10dip"
+		android:textSize="20sp"
+		android:gravity="center"
+		android:textColor="@android:color/white"
+		android:lineSpacingExtra="4dp"
+		android:paddingBottom="20dp"
+		>
+	</TextView>	
+</LinearLayout>
+</ScrollView>

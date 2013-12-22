@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"    
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="@dimen/widget_margin">
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget"
+    style="@style/WidgetDarkBackground">
+		<LinearLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:layout_marginBottom="40dp">
+		
+		  <TextView
+		      android:id="@+id/daily_meal_title"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:gravity="top|center_horizontal"
+		      android:textColor="@android:color/white"
+		      android:textSize="20sp"
+		      android:paddingTop="10dp"
+		      android:textStyle="bold" >
+		
+			</TextView>
+		  <TextView android:id="@+id/daily_meal_content" android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				android:textSize="16sp"
+				android:gravity="center"
+				android:textColor="@android:color/white"
+				android:lineSpacingExtra="2dp"
+				>
+			</TextView>	
+		</LinearLayout>
+
+      <ImageButton
+          android:src="@drawable/ic_action_navigation_previous_item"
+          android:contentDescription="previous item"
+          android:id="@+id/widget_click_left"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|left"
+          android:paddingLeft="2dp"
+          android:paddingRight="20dp"
+          android:paddingTop="10dp"
+          android:paddingBottom="2dp"
+          style="@style/WidgetButtonLeft"/>
+
+      <ImageButton
+          android:src="@drawable/ic_action_navigation_refresh"
+          android:contentDescription="refresh"
+          android:id="@+id/widget_click_refresh"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal|bottom"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:paddingTop="10dp"
+          android:paddingBottom="2dp"
+          style="@style/WidgetButtonCenter" />
+
+      <ImageButton
+          android:src="@drawable/ic_action_navigation_next_item"
+          android:contentDescription="next item"
+          android:id="@+id/widget_click_right"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|right"
+          android:paddingLeft="20dp"
+          android:paddingRight="2dp"
+          android:paddingTop="10dp"
+          android:paddingBottom="2dp"
+          style="@style/WidgetButtonRight"
+           />
+
+  </FrameLayout>
+
+</FrameLayout>

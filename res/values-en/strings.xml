@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="options">Options</string>
+    <string name="about">About</string>
+    <string name="sort">Sort</string>
+    <string name="add_remove">Menus</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_load">ERROR Loading Data!</string>
+    
+    <string name="info_change_date">Touch to change date</string>
+    <string name="info_change_screen">Swipe to browse menu</string>
+    <string name="info_select_menus">Choose some menus then touch here to go to the main screen</string>
+    
+    <string name="no_meal_content">No menu selected</string>
+    <string name="meal_loading">Loading&#8230;</string>
+    
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="options">Options</string>
+    <string name="about">Info</string>
+    <string name="sort">Ordre</string>
+    <string name="add_remove">Menus</string>
+    <string name="retry">Réessayer</string>
+    <string name="cancel">Annuler</string>
+    <string name="error_load">Erreur lors du chargement de données!</string>
+    
+    <string name="info_change_date">Touchez pour modifier la date</string>
+    <string name="info_change_screen">Swipe pour parcourir les menus</string>
+    <string name="info_select_menus">Choisissez des menus, puis touchez ici pour revenir à l\'écran principal</string>
+    
+    <string name="no_meal_content">Pas de menu sélectionné</string>
+    <string name="meal_loading">Chargement&#8230;</string>
+    
+</resources>

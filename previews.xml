@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="ch.fritscher.campusfood.android.widget.CampusfoodAppWidgetProvider$UpdateService"
+        config="layout-sw360dp-w360dp-h640dp-normal-long-port-notnight-xhdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x720-v17"
+        device="Galaxy Nexus"
+        devicestate="Portrait"
+        target="Android 4.2"
+        theme="@style/Theme.Sherlock" >
+    </preview>
+
+</previews>
